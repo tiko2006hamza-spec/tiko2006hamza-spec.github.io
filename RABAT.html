@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabat - Slider d'images</title>
+    <link rel="stylesheet" href="RABAT.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="resume-section">
+            <h1 class="city-title">🇲🇦 Rabat <span class="city-subtitle">La Capitale Lumière</span></h1>
+            <div class="city-description">
+                <p>Capitale administrative et politique du Maroc, Rabat allie harmonieusement modernité et patrimoine historique. Ville jardin aux larges boulevards fleuris, elle offre un cadre de vie élégant et paisible, tout en étant le siège des institutions royales et gouvernementales.</p>
+                <p>Inscrite au patrimoine mondial de l'UNESCO, Rabat abrite des joyaux architecturaux comme la Tour Hassan, minaret inachevé du XIIe siècle, et le Théâtre National Mohammed V, chef-d'œuvre de l'architecture moderne marocaine. Le Kasbah des Oudayas, avec ses ruelles blanches et bleues, offre une vue imprenable sur l'embouchure du Bouregreg.</p>
+                <p>Entre la médina animée, le quartier moderne de l'Agdal et les jardins de l'Essaadi, Rabat séduit par son authenticité et son art de vivre méditerranéen. La ville est également un grand centre culturel avec le Théâtre Mohammed V et le Musée d'Art Contemporain.</p>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <input type="radio" name="slider" id="slide1" class="slider-radio" checked>
+                <input type="radio" name="slider" id="slide2" class="slider-radio">
+                <input type="radio" name="slider" id="slide3" class="slider-radio">
+
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <h3>Tour Hassan</h3>
+                            <p>Le majestueux minaret inachevé</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <h3>Théâtre National Mohammed V</h3>
+                            <p>Chef-d'œuvre architectural moderne</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <h3>Kasbah des Oudayas</h3>
+                            <p>Ruelles bleues et vue sur l'océan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-dots">
+                    <label for="slide1" class="dot"></label>
+                    <label for="slide2" class="dot"></label>
+                    <label for="slide3" class="dot"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-credits">
+            <p><i>✨ Cliquez sur les points pour découvrir les splendeurs de Rabat ✨</i></p>
+        </div>
+    </div>
+</body>
+</html>

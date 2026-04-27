@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanger - Slider d'images</title>
+    <link rel="stylesheet" href="tanger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="resume-section">
+            <h1 class="city-title">🇲🇦 Tanger <span class="city-subtitle">La Perle du Détroit</span></h1>
+            <div class="city-description">
+                <p>Située à l'entrée du détroit de Gibraltar, Tanger est une ville cosmopolite où se rencontrent l'Afrique et l'Europe. Son histoire fascinante, marquée par les influences berbères, arabes, andalouses et internationales, en fait une destination unique au charme envoûtant.</p>
+                <p>La médina de Tanger, avec ses ruelles blanches et ses souks animés, abrite la célèbre Place Petit Socco, autrefois repaire d'écrivains et d'artistes du monde entier. La ville moderne, avec son boulevard Mohammed VI bordé de palmiers, offre une magnifique promenade en bord de mer.</p>
+                <p>À proximité, les mythiques Grottes d'Hercule et le Cap Spartel, où l'Atlantique rencontre la Méditerranée, offrent des panoramas à couper le souffle. Tanger, c'est aussi un art de vivre méditerranéen, entre thés à la menthe et couchers de soleil spectaculaires.</p>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <input type="radio" name="slider" id="slide1" class="slider-radio" checked>
+                <input type="radio" name="slider" id="slide2" class="slider-radio">
+                <input type="radio" name="slider" id="slide3" class="slider-radio">
+
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <h3>Grottes d'Hercule</h3>
+                            <p>Le mythique site aux portes de l'Atlantique</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <h3>Cap Spartel</h3>
+                            <p>Là où l'océan rencontre la Méditerranée</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <h3>Médina de Tanger</h3>
+                            <p>Ruelles blanches et histoire cosmopolite</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-dots">
+                    <label for="slide1" class="dot"></label>
+                    <label for="slide2" class="dot"></label>
+                    <label for="slide3" class="dot"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-credits">
+            <p><i>✨ Cliquez sur les points pour explorer les trésors de Tanger ✨</i></p>
+        </div>
+    </div>
+</body>
+</html>

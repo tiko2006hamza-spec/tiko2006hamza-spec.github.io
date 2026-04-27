@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, #fff7f0 0%, #fef5e8 100%);
+  font-family: 'Inter', sans-serif;
+  color: #2c2a29;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.hero h1 {
+  font-size: 2.9rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #b64926, #dc7f2c, #c85c1c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #5e4b3a;
+  border-top: 2px solid rgba(200, 100, 40, 0.25);
+  border-bottom: 2px solid rgba(200, 100, 40, 0.25);
+  display: inline-block;
+  padding: 0.5rem 1.8rem;
+  background: rgba(255, 245, 235, 0.6);
+  border-radius: 60px;
+  margin-top: 0.75rem;
+}
+
+.description {
+  max-width: 650px;
+  margin: 1.2rem auto 0;
+  color: #5b4a3b;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.cities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.city-card {
+  background: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+  border: 1px solid rgba(220, 120, 40, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.city-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(220, 110, 30, 0.4);
+}
+
+.card-img-top {
+  height: 180px;
+  background-size: cover;
+  background-position: center 30%;
+  position: relative;
+}
+
+.img-marrakech {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.05)), url('https://images.unsplash.com/photo-1597211684422-d2fa723181cb?w=500&auto=format');
+  background-size: cover;
+  background-position: 50% 35%;
+}
+
+.img-fes {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.05)), url('https://images.unsplash.com/photo-1569701038412-1beaa13c8a37?w=500&auto=format');
+  background-size: cover;
+  background-position: 50% 30%;
+}
+
+.img-tanger {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.05)), url('https://images.unsplash.com/photo-1620312677326-c28c685f4cf7?w=500&auto=format');
+  background-size: cover;
+  background-position: 50% 45%;
+}
+
+.img-rabat {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.05)), url('https://images.unsplash.com/photo-1591824438701-cee1b9e4ad9c?w=500&auto=format');
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.card-content {
+  padding: 1.6rem 1.4rem 1.8rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-name {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6rem;
+  color: #3b2a21;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.city-name i {
+  font-size: 1.5rem;
+  color: #c96f2c;
+}
+
+.city-desc {
+  color: #5c4a3a;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.city-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdf3ea;
+  padding: 0.8rem 1.3rem;
+  border-radius: 60px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #b64926;
+  border: 1px solid #f0dfcf;
+  transition: all 0.25s;
+  margin-top: 0.6rem;
+  gap: 9px;
+  width: fit-content;
+}
+
+.city-link i {
+  transition: transform 0.2s;
+  font-size: 0.9rem;
+}
+
+.city-link:hover {
+  background: #b64926;
+  color: white;
+  border-color: #b64926;
+}
+
+.city-link:hover i {
+  transform: translateX(4px);
+  color: white;
+}
+
+.footnote {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #9b7e66;
+  border-top: 1px dashed #e6d5c2;
+  padding-top: 2rem;
+}
+
+.toast-notif {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  background: #2c241e;
+  color: #ffefdb;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+  background: rgba(32, 24, 19, 0.92);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  font-family: 'Inter', monospace;
+  border-left: 4px solid #e07a3a;
+}
+
+.toast-notif i {
+  font-size: 1.2rem;
+  color: #f2a65a;
+}
+
+.toast-notif.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) scale(1);
+}
+
+@media (max-width: 680px) {
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  .city-name {
+    font-size: 1.6rem;
+  }
+}

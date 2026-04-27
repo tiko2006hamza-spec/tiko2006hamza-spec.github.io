@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fès - Slider d'images</title>
+    <link rel="stylesheet" href="FES.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="resume-section">
+            <h1 class="city-title">🇲🇦 Fès <span class="city-subtitle">La Capitale Spirituelle</span></h1>
+            <div class="city-description">
+                <p>Fondée au IXe siècle, Fès est la plus ancienne des villes impériales du Maroc et demeure le cœur spirituel et culturel du pays. Sa médina, classée au patrimoine mondial de l'UNESCO, est l'un des plus grands espaces urbains piétonniers au monde.</p>
+                <p>Au cœur de Fès el-Bali, vous découvrirez la prestigieuse université Al Quaraouiyine, fondée en 859, considérée comme la plus vieille université encore en activité. Les célèbres tanneries Chouara offrent un spectacle unique de couleurs et de savoir-faire ancestral.</p>
+                <p>Entre ses ruelles labyrinthiques, ses somptueuses portes comme Bab Boujloud, ses fondouks et ses mosquées, Fès invite à un véritable voyage dans le temps, où l'artisanat traditionnel marocain atteint son plus haut niveau d'excellence.</p>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <input type="radio" name="slider" id="slide1" class="slider-radio" checked>
+                <input type="radio" name="slider" id="slide2" class="slider-radio">
+                <input type="radio" name="slider" id="slide3" class="slider-radio">
+
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <h3>Tanneries Chouara</h3>
+                            <p>Les couleurs éclatantes du cuir traditionnel</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <h3>Bab Boujloud</h3>
+                            <p>La porte bleue emblématique de Fès</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <h3>Médina de Fès</h3>
+                            <p>Labyrinthe millénaire classé à l'UNESCO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-dots">
+                    <label for="slide1" class="dot"></label>
+                    <label for="slide2" class="dot"></label>
+                    <label for="slide3" class="dot"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-credits">
+            <p><i>✨ Cliquez sur les points pour découvrir les merveilles de Fès ✨</i></p>
+        </div>
+    </div>
+</body>
+</html>

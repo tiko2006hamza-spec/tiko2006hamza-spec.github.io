@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakech - Slider d'images</title>
+    <link rel="stylesheet" href="MARRAKECH.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Section résumé de la ville -->
+        <div class="resume-section">
+            <h1 class="city-title">🇲🇦 Marrakech <span class="city-subtitle">La Ville Rouge</span></h1>
+            <div class="city-description">
+                <p>Surnommée la « Ville Rouge » pour la couleur ocre de ses murs, Marrakech est l'une des villes impériales les plus fascinantes du Maroc. Fondée en 1070 par les Almoravides, elle a su préserver son authenticité tout en embrassant la modernité.</p>
+                <p>Au cœur de la médina, la célèbre place Jemaa el-Fna s'anime jour et nuit avec ses charmeurs de serpents, conteurs et marchands. Les jardins majorelles, la magnifique mosquée Koutoubia et les somptueux palais comme la Bahia font de Marrakech une destination incontournable pour les voyageurs du monde entier.</p>
+                <p>Entre souks odorants, riads traditionnels et gastronomie riche en épices, Marrakech offre une expérience sensorielle unique qui marque les esprits.</p>
+            </div>
+        </div>
+
+        
+        <div class="slider-container">
+            <div class="slider">
+                
+                <input type="radio" name="slider" id="slide1" class="slider-radio" checked>
+                <input type="radio" name="slider" id="slide2" class="slider-radio">
+                <input type="radio" name="slider" id="slide3" class="slider-radio">
+
+                
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <h3>Jemaa el-Fna</h3>
+                            <p>La célèbre place animée de Marrakech</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <h3>Jardins Majorelle</h3>
+                            <p>Un havre de paix aux couleurs éclatantes</p>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <h3>Mosquée Koutoubia</h3>
+                            <p>Le joyau architectural de la ville</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="navigation-dots">
+                    <label for="slide1" class="dot"></label>
+                    <label for="slide2" class="dot"></label>
+                    <label for="slide3" class="dot"></label>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="photo-credits">
+            <p><i> Cliquez sur les points pour découvrir les différents visages de Marrakech </i></p>
+        </div>
+    </div>
+</body>
+</html>

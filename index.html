@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maroc | Villes les plus visitées</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>🇲🇦 Les villes les plus visitées du Maroc</h1>
+    <div class="hero-sub">
+      <i class="fas fa-map-marked-alt"></i> Marrakech · Fès · Tanger · Rabat
+    </div>
+    <p class="description">
+      Entre traditions impériales, médinas millénaires et côtes méditerranéennes, ces quatre joyaux marocains attirent des voyageurs du monde entier.
+    </p>
+  </div>
+
+  <div class="cities-grid">
+    <div class="city-card">
+      <div class="card-img-top img-marrakech"></div>
+      <div class="card-content">
+        <div class="city-name">
+          <i class="fas fa-palmtree"></i> Marrakech
+        </div>
+        <div class="city-desc">
+          Surnommée la « ville rouge », Marrakech fascine par ses souks animés, ses jardins luxuriants et l'effervescence de la place Jemaa el-Fna.
+        </div>
+        <a href="MARRAKECH.html" class="city-link" target="_blank" rel="noopener noreferrer" data-city="Marrakech">
+          <span>Explorer la ville <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="city-card">
+      <div class="card-img-top img-fes"></div>
+      <div class="card-content">
+        <div class="city-name">
+          <i class="fas fa-mosque"></i> Fès
+        </div>
+        <div class="city-desc">
+          Fès abrite l’une des médinas les mieux préservées au monde. Plongez dans l'histoire millénaire, ses tanneries et la plus vieille université Al Quaraouiyine.
+        </div>
+        <a href="FES.HTML" class="city-link" target="_blank" rel="noopener noreferrer" data-city="Fès">
+          <span>Découvrir Fès <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="city-card">
+      <div class="card-img-top img-tanger"></div>
+      <div class="card-content">
+        <div class="city-name">
+          <i class="fas fa-water"></i> Tanger
+        </div>
+        <div class="city-desc">
+          Tanger, carrefour de cultures entre Europe et Afrique, séduit par sa médina animée, sa corniche moderne et ses grottes d'Hercule.
+        </div>
+        <a href="tanger.html" class="city-link" target="_blank" rel="noopener noreferrer" data-city="Tanger">
+          <span>Visiter Tanger <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="city-card">
+      <div class="card-img-top img-rabat"></div>
+      <div class="card-content">
+        <div class="city-name">
+          <i class="fas fa-building-columns"></i> Rabat
+        </div>
+        <div class="city-desc">
+          Rabat allie modernité et patrimoine : la Tour Hassan, le mausolée Mohammed V et le Kasbah des Oudayas.
+        </div>
+        <a href="RABAT.html" class="city-link" target="_blank" rel="noopener noreferrer" data-city="Rabat">
+          <span>Explorer Rabat <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footnote">
+    <i class="fas fa-globe-africa"></i> Liens vers des sites complets sur chaque ville.
+  </div>
+</div>
+
+<div id="cityToast" class="toast-notif">
+  <i class="fas fa-compass"></i>
+  <span id="toastMessage"></span>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
